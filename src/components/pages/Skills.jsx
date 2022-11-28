@@ -5,7 +5,7 @@ export default function Skills(props) {
 	return (
 		<div>
 			<Heading section="skills" />
-			<div className="flex flex-row items-center justify-between">
+			<div className="flex flex-col items-center justify-between md:flex-row ">
 				<Container containerTitle="Frontend" elements={props.frontend} />
 				<Container
 					containerTitle="Backend"

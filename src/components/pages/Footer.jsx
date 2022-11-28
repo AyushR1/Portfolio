@@ -28,10 +28,10 @@ export default function Footer(props) {
 					</div>
 					<div className="flex flex-row justify-between">
 						<a target="_blank" rel="noopener noreferrer" href={props.github}>
-							<Github className="w-5 h-5 transition duration-500 ease-in-out fill-gray hover:fill-green" />
+							<Github className="w-5 h-5 transition duration-500 ease-in-out fill-gray hover:fill-sky-500" />
 						</a>
 						<a target="_blank" rel="noopener noreferrer" href={props.linkedin}>
-							<Linkedin className="w-5 h-5 transition duration-500 ease-in-out fill-gray hover:fill-green" />
+							<Linkedin className="w-5 h-5 transition duration-500 ease-in-out fill-gray hover:fill-sky-500" />
 						</a>
 					</div>
 				</div>

@@ -45,7 +45,7 @@ export default function TextInput(props) {
 					<div className="grid w-full grid-cols-2 gap-8 mb-7">
 						<div>
 							<Field
-								className="block w-full h-12 p-2 pr-10 text-white bg-transparent border-2 rounded-lg placeholder-gray border-green font-fira focus:outline-none focus:ring-green focus:border-green"
+								className="block w-full h-12 p-2 pr-10 text-white bg-transparent border-2 rounded-lg placeholder-grayborder-sky-500 font-fira focus:outline-none focus:ring-sky-500 focus:border-sky-500"
 								id="name"
 								name="name"
 								placeholder="Nome"
@@ -65,7 +65,7 @@ export default function TextInput(props) {
 						</div>
 						<div>
 							<Field
-								className="block w-full h-12 p-2 pr-10 text-white bg-transparent border-2 rounded-lg placeholder-gray border-green font-fira focus:outline-none focus:ring-green focus:border-green"
+								className="block w-full h-12 p-2 pr-10 text-white bg-transparent border-2 rounded-lg placeholder-grayborder-sky-500 font-fira focus:outline-none focus:ring-sky-500 focus:border-sky-500"
 								id="email"
 								name="email"
 								placeholder="Email"
@@ -85,7 +85,7 @@ export default function TextInput(props) {
 						</div>
 					</div>
 					<Field
-						className="block w-full h-12 p-2 pr-10 text-white bg-transparent border-2 rounded-lg placeholder-gray border-green font-fira focus:outline-none focus:ring-green focus:border-green"
+						className="block w-full h-12 p-2 pr-10 text-white bg-transparent border-2 rounded-lg placeholder-grayborder-sky-500 font-fira focus:outline-none focus:ring-sky-500 focus:border-sky-500"
 						id="object"
 						name="object"
 						placeholder="Oggetto"
@@ -103,7 +103,7 @@ export default function TextInput(props) {
 						)}
 					/>
 					<Field
-						className="w-full p-2 text-white bg-transparent border-2 rounded-lg h-52 placeholder-gray mt-7 border-green font-fira focus:outline-none focus:ring-green focus:border-green"
+						className="w-full p-2 text-white bg-transparent border-2 rounded-lg h-52 placeholder-gray mt-7border-sky-500 font-fira focus:outline-none focus:ring-sky-500 focus:border-sky-500"
 						id="text"
 						name="text"
 						placeholder="Testo"
@@ -124,11 +124,11 @@ export default function TextInput(props) {
 					<div className="absolute mt-8">
 						<button
 							type="submit"
-							className="px-3 py-1 text-base font-medium text-white transition duration-300 ease-in bg-black border rounded-lg border-green font-fira hover:bg-transparent hover:cursor-pointer"
+							className="px-3 py-1 text-base font-medium text-white transition duration-300 ease-in bg-black border rounded-lgborder-sky-500 font-fira hover:bg-transparent hover:cursor-pointer"
 						>
 							Invio -&gt;
 						</button>
-						<div className="absolute left-0 inline-block px-3 py-1 text-base font-medium text-white border rounded-lg border-green font-fira bg-gradient-to-r from-green to-gray -z-10">
+						<div className="absolute left-0 inline-block px-3 py-1 text-base font-medium text-white border rounded-lgborder-sky-500 font-fira bg-gradient-to-r from-sky-500 to-gray -z-10">
 							Invio -&gt;{" "}
 						</div>
 					</div>

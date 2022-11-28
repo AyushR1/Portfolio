@@ -12,8 +12,8 @@ export default function Container(props) {
 			<div
 				className={
 					props.variant === "center"
-						? "flex justify-center flex-col border-2 border-gray rounded-[30px] px-4 py-4 h-[470px]"
-						: "flex justify-center flex-col border-2 border-gray rounded-[30px] px-4 py-4 h-[600px]"
+						? "flex justify-end flex-col border-2 border-gray rounded-[30px] px-4 py-4 h-[470px] md:w-full w-56"
+						: "flex justify-end flex-col border-2 border-gray rounded-[30px] px-4 py-4 h-[600px] md:w-full w-56"
 				}
 			>
 				{props.elements.map((el) => {
