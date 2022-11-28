@@ -29,7 +29,7 @@ export default function Projects() {
 				title="AR_Beast-Kernel"
 				image="bg-project3"
 				description="Built Custom Android Kernel for 4 Android Devices, which helped 10000+ users to get overall optimized device experience with device-specific Thermal control driver & Current Control driver, along with an Android App to easily configure over 50 offered features."
-				languages="TypeScript React Tailwind"
+				languages="Linux Kernel, C"
 				link={"https://arbeast.github.io/"}
 				github={"https://github.com/AyushR1?tab=repositories&q=ar_beast&type=&language=&sort="}
 				/>

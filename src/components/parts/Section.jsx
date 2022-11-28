@@ -9,7 +9,7 @@ export default function Section(props) {
 					scrollToElement(props.title);
 				}}
 			>
-				<span className="text-green">#</span>
+				<span className="text-sky-500">#</span>
 				{props.title}
 			</button>
 		</div>

@@ -32,18 +32,13 @@ function App() {
 
 	return (
 		<div className="w-full">
-			<Navigation
-				github={GitLink}
-				linkedin={LinkedinLink}
-				isLeft="true"
-			/>
-			<Navigation mail={mail} isLeft="false" />
+
 
 			<Navbar name={name} sections={sections} />
 
 			<div className="mx-60">
 				<div id="home" className="mt-20">
-					<Hero subtitle={subtitle} workingOn={workingOn} />
+					<Hero subtitle={subtitle}/>
 				</div>
 
 				<div id="skills" className="py-24">
