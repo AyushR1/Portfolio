@@ -4,7 +4,6 @@ import Skills from "./components/pages/Skills";
 import Projects from "./components/pages/Projects";
 import About from "./components/pages/About";
 import Footer from "./components/pages/Footer";
-import Navigation from "./components/parts/Navigation";
 
 function App() {
 	const GitLink = "https://github.com/ayushr1";
@@ -22,7 +21,6 @@ function App() {
 	const surname = "Rathore";
 	const subtitle =
 		"Software Developer";
-	const workingOn = "Portfolio";
 
 	//About Props
 	const firstParagraph =

@@ -1,12 +1,12 @@
 import Button from "../parts/Button";
 import Heading from "../parts/Heading";
-import AboutAnimation from "../molecules/AboutAnimation/AboutAnimation";
+import HeroImage from "../../assets/img/hero.jpg"
 
 export default function About(props) {
 	return (
 		<div className="">
 			<Heading section={"About"} />
-			<div className="flex flex-row">
+			<div className="flex flex-col md:flex-row">
 				<div className="flex flex-col justify-center w-1/2 text-base text-gray font-fira">
 					<p className="mb-6 ">Hi, I'm {props.name}!</p>
 					<p className="mb-6">{props.firstParagraph}</p>
@@ -15,8 +15,8 @@ export default function About(props) {
 						<Button title={"Contact"} type="toSection" section="contact" />
 					</div>
 				</div>
-				<div className="flex justify-end w-1/2">
-					<AboutAnimation name={props.name} surname={props.surname} />
+				<div className="flex justify-end w-64">
+				<img src={HeroImage} alt="my profile" className="rounded-full" />
 				</div>
 			</div>
 		</div>

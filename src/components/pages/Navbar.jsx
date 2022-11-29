@@ -1,5 +1,5 @@
 import Section from "../parts/Section";
-import logo from "../../assets/img/jetop.png";
+import logo from "../../assets/img/logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
@@ -12,7 +12,7 @@ export default function Navbar(props) {
         <div>
           <img src={logo} alt="personal portfolio logo" className="w-9" />
         </div>
-        <div className="mx-2 text-2xl font-bold text-white">{props.name}</div>
+        <div className="mx-2 text-2xl font-bold text-white">{props.name + "R1"}</div>
       </div>
       <div className="hidden md:flex">
         {props.sections.map((section) => {
