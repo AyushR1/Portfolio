@@ -3,7 +3,7 @@ import ProjectDescription from "../parts/ProjectDescription";
 
 export default function Project(props) {
 	return props.float === "right" ? (
-		<div className="relative grid items-center gap-2.5 grid-cols-12	h-[350px] mb-24">
+		<div className="relative grid items-center gap-2.5 grid-cols-12	 mb-24">
 			<div className="h-full col-start-1 col-end-8 row-start-1">
 				<ProjectCard image={props.image} />
 			</div>
@@ -19,7 +19,7 @@ export default function Project(props) {
 			</div>
 		</div>
 	) : (
-		<div className="relative grid items-center gap-2.5 grid-cols-12	h-[350px] mb-24">
+		<div className="relative grid items-center gap-2.5 grid-cols-12	 mb-24">
 			<div className="h-full col-start-6 col-end-13 row-start-1">
 				<ProjectCard image={props.image} />
 			</div>

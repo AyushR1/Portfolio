@@ -12,8 +12,8 @@ function App() {
 
 	const sections = ["home", "skills", "project", "about"];
 
-	const frontendSkills = ["CSS","Javascript", "HTML", "React"];
-	const backendSkills = ["Django","Flask","Node JS"];
+	const frontendSkills = ["CSS", "Javascript", "HTML", "React"];
+	const backendSkills = ["Django", "Flask", "Node JS"];
 	const toolsSkills = ["GitHub", "Git"];
 
 	//Hero Props
@@ -30,13 +30,10 @@ function App() {
 
 	return (
 		<div className="w-full">
-
-
 			<Navbar name={name} sections={sections} />
-
-			<div className="mx-60">
-				<div id="home" className="mt-20">
-					<Hero subtitle={subtitle}/>
+			<div className=" px-10 md:px-32 ">
+				<div id="home" className="mt-20 md:mx-20 lg:mx-60 ">
+					<Hero subtitle={subtitle} />
 				</div>
 
 				<div id="skills" className="py-24">
@@ -60,15 +57,14 @@ function App() {
 					/>
 				</div>
 
-	
 			</div>
 
 			<Footer
-				mail={mail}
-				github={GitLink}
-				linkedin={LinkedinLink}
-				name={name}
-			/>
+					mail={mail}
+					github={GitLink}
+					linkedin={LinkedinLink}
+					name={name} />
+
 		</div>
 	);
 }

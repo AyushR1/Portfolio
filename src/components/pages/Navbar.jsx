@@ -7,7 +7,7 @@ export default function Navbar(props) {
   const [nav, setNav] = useState(false);
 
   return (
-    <div className="sticky top-0 z-20 flex flex-row justify-between w-full items-center px-32 py-5 bg-black/50 backdrop-blur-sm">
+    <div className="sticky top-0 z-20 flex flex-row justify-between w-full items-center px-10 md:px-32 py-5 bg-black/50 backdrop-blur-sm">
       <div className="flex align-middle">
         <div>
           <img src={logo} alt="personal portfolio logo" className="w-9" />
